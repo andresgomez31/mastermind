@@ -11,40 +11,49 @@ Una versión interactiva del clásico juego Mastermind, desarrollada en Python c
 
 ## Requisitos
 
-- Python 3 (recomendado Python 3.10 o superior)
-- Módulo `tkinter` instalado (incluido en la mayoría de distribuciones de Python, pero puede requerir instalación manual)
+- Python 3 (recomendado Python 3.10 o superior).
+- Módulo `tkinter` instalado (incluido en la mayoría de distribuciones de Python, pero puede requerir instalación manual).
 
 ## Instalación
 
-```bash
-git clone https://github.com/andresgomez31/mastermind
-cd mastermind
-python3 gui.py
-Solución de errores comunes
-Si al ejecutar gui.py aparece el siguiente error:
+1. Clona el repositorio:
 
-vbnet
-Copiar
-Editar
-Traceback (most recent call last):
-  File "/Users/andresgomez/git/mastermind/gui.py", line 1, in <module>
-    import tkinter as tk
-  ...
-ModuleNotFoundError: No module named '_tkinter'
-En macOS (Homebrew):
-bash
-Copiar
-Editar
-brew install python-tk
-En Ubuntu/Debian:
-bash
-Copiar
-Editar
-sudo apt-get install python3-tk
-En Arch Linux:
-bash
-Copiar
-Editar
-sudo pacman -S tk
-En Windows:
-Asegúrate de haber descargado Python desde python.org y activado la opción "tcl/tk and IDLE" durante la instalación.
+    ```bash
+    git clone https://github.com/andresgomez31/mastermind
+    cd mastermind
+    ```
+
+2. Ejecuta el programa:
+
+    ```bash
+    python3 gui.py
+    ```
+
+## Solución de errores comunes
+
+### Error: `ModuleNotFoundError: No module named '_tkinter'`
+
+Si al ejecutar `gui.py` aparece este error, sigue las instrucciones según tu sistema operativo:
+
+- **macOS (Homebrew):**
+
+  ```bash
+  brew install python-tk
+  ```
+
+- **Ubuntu/Debian:**
+
+  ```bash
+  sudo apt-get install python3-tk
+  ```
+
+- **Arch Linux:**
+
+  ```bash
+  sudo pacman -S tk
+  ```
+
+- **Windows:**
+
+  Asegúrate de haber descargado Python desde [python.org](https://www.python.org) y activado la opción "tcl/tk and IDLE" durante la instalación.  
+  
